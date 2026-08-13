@@ -1,0 +1,137 @@
+body {
+
+    font-family: arial,sans-serif; /* Escolhendo a fonte que o site vai obter, primeiro buscando arial se não ouver vai procurar a sans-serif*/
+    background-color: #ffffff; /* Cor de fundo do site geral */
+    margin: 0; /* É a distribuição externa do espaçamento do site */
+    padding: 0; /* É a distribuição interda do espaçamento do site */
+
+}
+
+/* Modificando completalmente o container que decretei dentro da div*/
+
+.container {
+
+    max-width: 800px; /* Tamanho do site*/
+    width: 90%; /* Espaçamento total */
+    margin: 30px auto; /* Margem do site*/
+    background: #fffffffb; /* Cor de fundo o container */
+    padding: 25px; /* Espaçament interno */
+    border-radius: 25px; /* Arredondamento da borda */
+    box-shadow: 10px 10px 10px black;
+    border: 3px solid #000000; /* Colocando uma borda ao redor da pagina predefinida */
+    box-sizing: border-box; /* Colocando o tamanho da box*/
+
+}
+
+/* Nesta secção eu estou alterando o topo em si do currículo onde eu estou modificando os elementos principais que estão entro da div topo*/
+
+.topo {
+    
+    display: flex; /* Falando que o posicionamento deles é */
+    align-items: center; /* Alinhamento entre os elementos */
+    gap: 30px ; /* É o espaçamento entre os elementos */
+
+}
+
+ /* Aqui eu estou decretando que eu irei modificar a imagem dentro da div topo*/
+
+.topo img {
+
+    width: 300px; /* Alterando o tamanho da imagem*/
+    height: 300px; /* Alterando a largura da imagem */
+    border-radius: 50%; /* Modificando a borda da image*/
+    object-fit: cover; /* Pedindo para o objeto preencher o tamanho escolhido */
+    border: 3px solid #000000; /* Colocando uma borda ao redor da pagina predefinida */
+    flex-shrink: 0; /* A imagem se encolhe ao tamanho fornecido */
+
+}
+
+/* Modificando o h1 (Nome do candidato) */
+
+h1 {
+
+    margin: 0; /* Aqui falando que a margem é 0 e não vai ser modificada */
+    color: #000000; /* Aqui apenas colocando uma cor */
+
+}
+
+/*Modificando os paragrafos do site*/
+
+.info p {
+    
+    margin: 3px 0; /* Aqui estou falando que eu quero que ele tenha 3 de margem mas não ultrapasse 0 */
+    color: #000000; /* Aqui colocando uma cor */
+    word-break: break-word; /* Aqui colocando uma quebra de linha onde ele vai ler até a ultima palavra e quebrar e modificar a proxima */
+    
+}
+
+/* Modificando o link */
+
+.info a {
+
+    color: #0073b1; /* Apenas colocando uma cor*/
+
+}
+
+/* Modificando o elemento h2 */
+h2 {
+
+    border-bottom: 2px solid #000000 ; /* Colocando bordas nos h2, bordas unicas*/
+    padding-bottom: 5px; /* É o espaçamento que a borda terá do elemento debaixo*/
+    color: #000000; /* Coe do h2 */
+    margin-top: 25px; /* Tamanho da margem */
+
+}
+
+/* Alterando todos os h3 */
+
+h3 {
+    
+    margin-bottom: 5px;
+    color: #000000;
+
+}
+
+/* Alterando todas as listas ul*/
+
+ul {
+
+    margin-top: 5px;
+    padding-left: 20px;
+
+}
+
+/* Alterando todas as linhas das listas (li) */
+
+li {
+
+    margin-bottom: 5px;
+
+}
+
+/* Alterando a classe .secao que foi decretada na div*/
+.secao {
+
+    margin-bottom: 15px;
+
+}
+
+/* Alterando a classe .periodo que foi decretada na div*/
+
+.periodo {
+
+    color: #777; /* Atribuindo a cor */
+    font-style: italic; /* Alterando o estilo da font */
+    font-size: 14px; /* Muda o tamanho da fonte que o padrão é 16*/
+
+}
+
+footer {
+
+    margin-top: 30px;
+    padding-top: 15px;
+    border-top: 1px solid #000000;
+    text-align: center;
+    font-size: 14px;
+
+}
